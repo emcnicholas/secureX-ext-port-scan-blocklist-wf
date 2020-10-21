@@ -11,11 +11,58 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "swc_alert_url",
+          "name": "task_id",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01IX60Q9O0ZHU72iAQLri2gsCahmHGqLgsx",
+        "unique_name": "variable_workflow_01IX60Q9O0OUG5DTFos0fNEdG6bCByyw1He",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "input",
+          "name": "wxt_room_id",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01JLKOL2BM9EI7Prp81IrVLTUEbvE6c47gU",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.secure_string",
+        "properties": {
+          "value": "",
+          "scope": "input",
+          "name": "cdo_api_key",
+          "type": "datatype.secure_string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01JLKQE5BNUZY6zT6eiPm2WIELZ8GtPChlr",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "global_blocklist_uid",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01IX60Q9O11VY0dgnSwYQVhbQxcdvwEdwa0",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01ILBCYQL0DNB0ZM9s64NMRkkG3jAqolSK8",
+        "properties": {
+          "scope": "output",
+          "name": "Port_Scan_Alert_Table",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01IX60Q9O0UXF57Wpm6hbzFJmJCHUa3EF0w",
         "object_type": "variable_workflow"
       },
       {
@@ -35,6 +82,18 @@
         "properties": {
           "value": "",
           "scope": "output",
+          "name": "blocklisted_ip_uid",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01IX60Q9O0W294vBSWop5Jrp4vGqQ8fqrbi",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
           "name": "blocklisted-ip",
           "type": "datatype.string",
           "is_required": false
@@ -47,11 +106,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "blocklisted_ip_uid",
+          "name": "blocklisted_ip_name",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01IX60Q9O0W294vBSWop5Jrp4vGqQ8fqrbi",
+        "unique_name": "variable_workflow_01IX60Q9O136N7UFV6ST1PH33QY2r7GYkMd",
         "object_type": "variable_workflow"
       },
       {
@@ -63,41 +122,6 @@
           "is_required": false
         },
         "unique_name": "variable_workflow_01IX60Q9O0TNE428UcKLeyRmKINYZPdYkz5",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01ILBCYQL0DNB0ZM9s64NMRkkG3jAqolSK8",
-        "properties": {
-          "scope": "output",
-          "name": "Port_Scan_Alert_Table",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01IX60Q9O0UXF57Wpm6hbzFJmJCHUa3EF0w",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "global_blocklist_uid",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01IX60Q9O11VY0dgnSwYQVhbQxcdvwEdwa0",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "task_id",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01IX60Q9O0OUG5DTFos0fNEdG6bCByyw1He",
         "object_type": "variable_workflow"
       },
       {
@@ -113,15 +137,39 @@
         "object_type": "variable_workflow"
       },
       {
+        "schema_id": "datatype.secure_string",
+        "properties": {
+          "value": "",
+          "scope": "input",
+          "name": "wxt_access_token",
+          "type": "datatype.secure_string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01JLKOB3PEWAW4uWnCGikBYKZVvx5HCJ2Os",
+        "object_type": "variable_workflow"
+      },
+      {
         "schema_id": "datatype.string",
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "blocklisted_ip_name",
+          "name": "swc_alert_url",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01IX60Q9O136N7UFV6ST1PH33QY2r7GYkMd",
+        "unique_name": "variable_workflow_01IX60Q9O0ZHU72iAQLri2gsCahmHGqLgsx",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.secure_string",
+        "properties": {
+          "value": "",
+          "scope": "input",
+          "name": "swc_api_key",
+          "type": "datatype.secure_string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01JLKNY9II2T73gDDPVM2X9KQOkTzz6zjCV",
         "object_type": "variable_workflow"
       }
     ],
@@ -173,7 +221,7 @@
               "custom_headers": [
                 {
                   "name": "Authorization",
-                  "value": ""
+                  "value": "$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.input.variable_workflow_01JLKNY9II2T73gDDPVM2X9KQOkTzz6zjCV$"
                 }
               ],
               "display_name": "Get Alerts From Stealthwatch Cloud",
@@ -186,7 +234,7 @@
               "skip_execution": false,
               "target": {
                 "override_workflow_target": true,
-                "target_id": "definition_target_01FWWHLNBPBNE5wiLppRw8C42XahgMtUBGa"
+                "target_id": "definition_target_01JLJHG0U6UZ13EuKREavGrvz7K5pHlZGdw"
               }
             },
             "object_type": "definition_activity"
@@ -260,7 +308,7 @@
                   "custom_headers": [
                     {
                       "name": "Authorization",
-                      "value": ""
+                      "value": "$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.input.variable_workflow_01JLKNY9II2T73gDDPVM2X9KQOkTzz6zjCV$"
                     }
                   ],
                   "display_name": "Get Stealthwatch Cloud Alert Observables",
@@ -273,7 +321,7 @@
                   "skip_execution": false,
                   "target": {
                     "override_workflow_target": true,
-                    "target_id": "definition_target_01FWWHLNBPBNE5wiLppRw8C42XahgMtUBGa"
+                    "target_id": "definition_target_01JLJHG0U6UZ13EuKREavGrvz7K5pHlZGdw"
                   }
                 },
                 "object_type": "definition_activity"
@@ -509,14 +557,14 @@
             "properties": {
               "action_timeout": 180,
               "allow_auto_redirect": true,
-              "body": "{\n  \"roomId\": \"Add Room ID here\",\n  \"markdown\": \"**ALERT: External Port Scan Detected!!** <br/>Stealthwatch Cloud has triggered an $workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.output.variable_workflow_01IX60Q9O0UXF57Wpm6hbzFJmJCHUa3EF0w[-1].alert_type$ Alert.<br/> <br/>To review this alert in Stealthwatch Cloud click $activity.definition_activity_01IX60UAK1E6R4eu19CjGeTy8i8GvwPCyDf.output.parts[-1]$.<br/> <br/>To start a SecureX Threat Respoonse Investigation click https://visibility.amp.cisco.com/investigate?q=$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.output.variable_workflow_01IX60Q9O0UXF57Wpm6hbzFJmJCHUa3EF0w[-1].scanner_ip$%0A$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.output.variable_workflow_01IX60Q9O0UXF57Wpm6hbzFJmJCHUa3EF0w[-1].scanned_ip$.<br/> <br/>To **Approve/Reject** the Automation of adding the attacker IP to the Global Blocklist click https://securex-ao.us.security.cisco.com/orch-ui/tasks/$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.output.variable_workflow_01IX60Q9O0OUG5DTFos0fNEdG6bCByyw1He$/.\"\n}",
+              "body": "{\n  \"roomId\": \"$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.input.variable_workflow_01JLKOL2BM9EI7Prp81IrVLTUEbvE6c47gU$\",\n  \"markdown\": \"**ALERT: External Port Scan Detected!!** <br/>Stealthwatch Cloud has triggered an $workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.output.variable_workflow_01IX60Q9O0UXF57Wpm6hbzFJmJCHUa3EF0w[-1].alert_type$ Alert.<br/> <br/>To review this alert in Stealthwatch Cloud click $activity.definition_activity_01IX60UAK1E6R4eu19CjGeTy8i8GvwPCyDf.output.parts[-1]$.<br/> <br/>To start a SecureX Threat Respoonse Investigation click https://visibility.amp.cisco.com/investigate?q=$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.output.variable_workflow_01IX60Q9O0UXF57Wpm6hbzFJmJCHUa3EF0w[-1].scanner_ip$%0A$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.output.variable_workflow_01IX60Q9O0UXF57Wpm6hbzFJmJCHUa3EF0w[-1].scanned_ip$.<br/> <br/>To **Approve/Reject** the Automation of adding the attacker IP to the Global Blocklist click https://securex-ao.us.security.cisco.com/orch-ui/tasks/$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.output.variable_workflow_01IX60Q9O0OUG5DTFos0fNEdG6bCByyw1He$/.\"\n}",
               "content_type": "application/json",
               "continue_on_error_status_code": false,
               "continue_on_failure": false,
               "custom_headers": [
                 {
                   "name": "Authorization",
-                  "value": ""
+                  "value": "$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.input.variable_workflow_01JLKOB3PEWAW4uWnCGikBYKZVvx5HCJ2Os$"
                 }
               ],
               "display_name": "Send Webex Teams Message",
@@ -633,7 +681,7 @@
                       "custom_headers": [
                         {
                           "name": "Authorization",
-                          "value": ""
+                          "value": "$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.input.variable_workflow_01JLKQE5BNUZY6zT6eiPm2WIELZ8GtPChlr$"
                         }
                       ],
                       "display_name": "Check CDO for Blocklist Object",
@@ -755,7 +803,7 @@
                               "custom_headers": [
                                 {
                                   "name": "Authorization",
-                                  "value": ""
+                                  "value": "$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.input.variable_workflow_01JLKQE5BNUZY6zT6eiPm2WIELZ8GtPChlr$"
                                 }
                               ],
                               "display_name": "Create Blocklist Object",
@@ -857,7 +905,7 @@
                       "custom_headers": [
                         {
                           "name": "Authorization",
-                          "value": ""
+                          "value": "$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.input.variable_workflow_01JLKQE5BNUZY6zT6eiPm2WIELZ8GtPChlr$"
                         }
                       ],
                       "display_name": "Get Global Blocklist Info",
@@ -984,7 +1032,7 @@
               "custom_headers": [
                 {
                   "name": "Authorization",
-                  "value": ""
+                  "value": "$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.input.variable_workflow_01JLKQE5BNUZY6zT6eiPm2WIELZ8GtPChlr$"
                 }
               ],
               "display_name": "Update Global Blocklist",
@@ -1009,22 +1057,43 @@
       "category_1BMfMXSnJMyt5Ihqi7rWJr5N8cf"
     ]
   },
-  "targets": {
-    "definition_target_01FWWHLNBPBNE5wiLppRw8C42XahgMtUBGa": {
-      "unique_name": "definition_target_01FWWHLNBPBNE5wiLppRw8C42XahgMtUBGa",
-      "name": "Stealthwatch Cloud",
-      "title": "Stealthwatch Cloud",
-      "type": "web-service.endpoint",
-      "base_type": "target",
-      "object_type": "definition_target",
+  "triggers": {
+    "triggerschedule_01JLKTQ45DBRT4ftv6CnC3K9CKjV6KekkcD": {
+      "workflow_id": "definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG",
+      "name": "5 Minute Trigger",
+      "title": "",
+      "lowercase_name": "schedule.5_minute_trigger",
+      "type": "schedule",
+      "base_type": "trigger",
+      "ref_id": "schedule_01IWC4BG8HN0K1uOiu0oazWF6uBO8tkjxLF",
+      "version": "1.0.0",
+      "disabled": false,
+      "unique_name": "triggerschedule_01JLKTQ45DBRT4ftv6CnC3K9CKjV6KekkcD",
+      "object_type": "triggerschedule"
+    }
+  },
+  "schedules": {
+    "schedule_01IWC4BG8HN0K1uOiu0oazWF6uBO8tkjxLF": {
+      "unique_name": "schedule_01IWC4BG8HN0K1uOiu0oazWF6uBO8tkjxLF",
+      "name": "SWC Alerts - 5 Minutes",
+      "description": "Query Stealthwatch Cloud Alert every 5 minutes",
+      "type": "basic.schedule",
+      "base_type": "schedule",
       "properties": {
-        "disable_certificate_validation": false,
-        "display_name": "Stealthwatch Cloud",
-        "host": "cisco-edmcnich.obsrvbl.com",
-        "no_runtime_user": true,
-        "protocol": "https"
-      }
-    },
+        "calendar": "calendar_recurring_1BMfMWvgiDhSjBQ7hTSyvz3NyVZ",
+        "timezone": "Etc/GMT+0",
+        "starttime": "00:05",
+        "interval_hours": 0,
+        "interval_minutes": 5,
+        "number_of_times": 287,
+        "display_name": "SWC Alerts - 5 Minutes",
+        "description": "Query Stealthwatch Cloud Alert every 5 minutes"
+      },
+      "version": "1.0.0",
+      "object_type": "schedule"
+    }
+  },
+  "targets": {
     "definition_target_01GWVYO6DESJV4QggBd683EEfuO1pm4lQAb": {
       "unique_name": "definition_target_01GWVYO6DESJV4QggBd683EEfuO1pm4lQAb",
       "name": "Webex",
@@ -1055,6 +1124,22 @@
         "no_runtime_user": true,
         "protocol": "https"
       }
+    },
+    "definition_target_01JLJHG0U6UZ13EuKREavGrvz7K5pHlZGdw": {
+      "unique_name": "definition_target_01JLJHG0U6UZ13EuKREavGrvz7K5pHlZGdw",
+      "name": "SWC_Target",
+      "title": "SWC_Target",
+      "type": "web-service.endpoint",
+      "base_type": "target",
+      "object_type": "definition_target",
+      "properties": {
+        "disable_certificate_validation": false,
+        "display_name": "SWC_Target",
+        "host": "add-endpoint-here.obsrvbl.com",
+        "ignore_proxy": false,
+        "no_runtime_user": true,
+        "protocol": "https"
+      }
     }
   },
   "table_types": {
@@ -1066,11 +1151,6 @@
         {
           "name": "alert_id",
           "title": "alert_id",
-          "type": "string"
-        },
-        {
-          "name": "alert_text",
-          "title": "alert_text",
           "type": "string"
         },
         {
@@ -1089,8 +1169,23 @@
           "type": "string"
         },
         {
+          "name": "alert_description",
+          "title": "alert_description",
+          "type": "string"
+        },
+        {
+          "name": "alert_text",
+          "title": "alert_text",
+          "type": "string"
+        },
+        {
           "name": "observ_name",
           "title": "observ_name",
+          "type": "string"
+        },
+        {
+          "name": "observ_time",
+          "title": "observ_time",
           "type": "string"
         },
         {
@@ -1101,16 +1196,6 @@
         {
           "name": "scanner_ip",
           "title": "scanner_ip",
-          "type": "string"
-        },
-        {
-          "name": "alert_description",
-          "title": "alert_description",
-          "type": "string"
-        },
-        {
-          "name": "observ_time",
-          "title": "observ_time",
           "type": "string"
         }
       ],
