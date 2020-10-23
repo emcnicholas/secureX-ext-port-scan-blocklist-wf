@@ -1,24 +1,13 @@
 # secureX-ext-port-scan-blocklist-wf
 
-**Prerequisites**
-1. Cisco Stealthwatch Cloud (SWC) Account
-2. Cisco Defense Orchestrator (CDO) Account
-    * Network Object in CDO named **Global_Blocklist**
-3. Cisco SecureX Account
-4. Optional Cisco Webex Teams Account
-
-**Workflow**
-
 In this workflow we will reach out to SWC for Inbound Port Scan Alerts. Once we have the alert we will query SWC again for all the observations about that alert. We create a SecureX Orchestration Approval Request and a Webex Teams Alerts message. In the Webex Teams alert message there will be a redirect link to the SWC Alert page, SecureX Threat Response Investigation prepopulated with all the SWC observables, and the SecureX Orchestration Approval request. The next step is to automate adding the attacker IP address to a network object in CDO, then merging the network object into the Global_Blocklist network group.
-
-This Cisco SecureX orchestration workflow is very similar to my ["Stealthwatch Cloud - Webex Teams Alerts"](https://github.com/emcnicholas/secureX-swc-wxt-alert-wf) workflow. In this workflow we are only creating a custom Webex Teams message for the **Inbound Port Scanner** alerts, but also creating a generic alert message for all other Alert Types. The idea here is to get started with creating more detailed alerts messages for attacks that mean more to your organization, while still have the generic alerts for all others, until a customized message is needed.
-
-## SecureX Stealthwatch Cloud Detailed Alert Workflow
 
 **Prerequisites:**
 1. Cisco Stealthwatch Cloud (SWC) Account (and API key)
 2. Cisco SecureX Account (and API key)
 3. Cisco Webex Teams Account (and API key)
+4. Cisco Defense Orchestrator (CDO) Account
+    * Network Object created in CDO named **Global_Blocklist**
 
 ## Installation Steps
 Please follow the below steps exactly to get started!
@@ -47,7 +36,7 @@ Please follow the below steps exactly to get started!
 
 ![](screenshots/update_base_url_swc.png)
 
- 7. Next up we will go back into the imported workflow, and we will update the **swc_api_key**. In the **SecureX Cloud Analytics Demo** workflow global workflow properties, scroll down to **Variables**, select the **swc_api_key** variable, and enter your API key in the Value field and save. Please retrieve your SWC API key by loging in to your SWC portal and generate an API key for your use account. To generate an API key, login to your portal and select **Settings > Account Management > API Credentials**, from there, you can generate a unique API key. A key is tied to a specfic user account.
+ 7. Next up we will go back into the imported workflow, and we will update the **swc_api_key**. In the **External Port Scan Blocklist Workflow** global workflow properties, scroll down to **Variables**, select the **swc_api_key** variable, and enter your API key in the Value field and save. Please retrieve your SWC API key by loging in to your SWC portal and generate an API key for your use account. To generate an API key, login to your portal and select **Settings > Account Management > API Credentials**, from there, you can generate a unique API key. A key is tied to a specfic user account.
 
 > **Note:** make sure not to select an activity when looking for the global workflow properties.
 
