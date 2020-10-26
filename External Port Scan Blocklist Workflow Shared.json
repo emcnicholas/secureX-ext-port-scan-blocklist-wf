@@ -7,62 +7,15 @@
     "base_type": "workflow",
     "variables": [
       {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "task_id",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01IX60Q9O0OUG5DTFos0fNEdG6bCByyw1He",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "input",
-          "name": "wxt_room_id",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01JLKOL2BM9EI7Prp81IrVLTUEbvE6c47gU",
-        "object_type": "variable_workflow"
-      },
-      {
         "schema_id": "datatype.secure_string",
         "properties": {
           "value": "",
           "scope": "input",
-          "name": "cdo_api_key",
+          "name": "swc_api_key",
           "type": "datatype.secure_string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01JLKQE5BNUZY6zT6eiPm2WIELZ8GtPChlr",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "global_blocklist_uid",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01IX60Q9O11VY0dgnSwYQVhbQxcdvwEdwa0",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01ILBCYQL0DNB0ZM9s64NMRkkG3jAqolSK8",
-        "properties": {
-          "scope": "output",
-          "name": "Port_Scan_Alert_Table",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01IX60Q9O0UXF57Wpm6hbzFJmJCHUa3EF0w",
+        "unique_name": "variable_workflow_01JLKNY9II2T73gDDPVM2X9KQOkTzz6zjCV",
         "object_type": "variable_workflow"
       },
       {
@@ -82,30 +35,6 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "blocklisted_ip_uid",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01IX60Q9O0W294vBSWop5Jrp4vGqQ8fqrbi",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "blocklisted-ip",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01IX60Q9O0X5S4gRYXMjj3jVm8knHjt74gq",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
           "name": "blocklisted_ip_name",
           "type": "datatype.string",
           "is_required": false
@@ -114,38 +43,14 @@
         "object_type": "variable_workflow"
       },
       {
-        "schema_id": "tabletype_01IMR00OGWEY16FaalvHZYMCKD39cbhuQrW",
+        "schema_id": "tabletype_01ILBCYQL0DNB0ZM9s64NMRkkG3jAqolSK8",
         "properties": {
           "scope": "output",
-          "name": "ip_observ_list",
+          "name": "Port_Scan_Alert_Table",
           "type": "datatype.table",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01IX60Q9O0TNE428UcKLeyRmKINYZPdYkz5",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "updated_global_blocklist_contents",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01IX60Q9O10OP1uCPXvqVpGU2DiufF439WC",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.secure_string",
-        "properties": {
-          "value": "",
-          "scope": "input",
-          "name": "wxt_access_token",
-          "type": "datatype.secure_string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01JLKOB3PEWAW4uWnCGikBYKZVvx5HCJ2Os",
+        "unique_name": "variable_workflow_01IX60Q9O0UXF57Wpm6hbzFJmJCHUa3EF0w",
         "object_type": "variable_workflow"
       },
       {
@@ -165,11 +70,106 @@
         "properties": {
           "value": "",
           "scope": "input",
-          "name": "swc_api_key",
+          "name": "wxt_access_token",
           "type": "datatype.secure_string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01JLKNY9II2T73gDDPVM2X9KQOkTzz6zjCV",
+        "unique_name": "variable_workflow_01JLKOB3PEWAW4uWnCGikBYKZVvx5HCJ2Os",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.secure_string",
+        "properties": {
+          "value": "",
+          "scope": "input",
+          "name": "cdo_api_key",
+          "type": "datatype.secure_string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01JLKQE5BNUZY6zT6eiPm2WIELZ8GtPChlr",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "updated_global_blocklist_contents",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01IX60Q9O10OP1uCPXvqVpGU2DiufF439WC",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "input",
+          "name": "wxt_room_id",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01JLKOL2BM9EI7Prp81IrVLTUEbvE6c47gU",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "global_blocklist_uid",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01IX60Q9O11VY0dgnSwYQVhbQxcdvwEdwa0",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01IMR00OGWEY16FaalvHZYMCKD39cbhuQrW",
+        "properties": {
+          "scope": "output",
+          "name": "ip_observ_list",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01IX60Q9O0TNE428UcKLeyRmKINYZPdYkz5",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "blocklisted_ip_uid",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01IX60Q9O0W294vBSWop5Jrp4vGqQ8fqrbi",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "task_id",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01IX60Q9O0OUG5DTFos0fNEdG6bCByyw1He",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "blocklisted-ip",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01IX60Q9O0X5S4gRYXMjj3jVm8knHjt74gq",
         "object_type": "variable_workflow"
       }
     ],
@@ -681,7 +681,7 @@
                       "custom_headers": [
                         {
                           "name": "Authorization",
-                          "value": "$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.input.variable_workflow_01JLKQE5BNUZY6zT6eiPm2WIELZ8GtPChlr$"
+                          "value": "Bearer $workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.input.variable_workflow_01JLKQE5BNUZY6zT6eiPm2WIELZ8GtPChlr$"
                         }
                       ],
                       "display_name": "Check CDO for Blocklist Object",
@@ -803,7 +803,7 @@
                               "custom_headers": [
                                 {
                                   "name": "Authorization",
-                                  "value": "$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.input.variable_workflow_01JLKQE5BNUZY6zT6eiPm2WIELZ8GtPChlr$"
+                                  "value": "Bearer $workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.input.variable_workflow_01JLKQE5BNUZY6zT6eiPm2WIELZ8GtPChlr$"
                                 }
                               ],
                               "display_name": "Create Blocklist Object",
@@ -905,7 +905,7 @@
                       "custom_headers": [
                         {
                           "name": "Authorization",
-                          "value": "$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.input.variable_workflow_01JLKQE5BNUZY6zT6eiPm2WIELZ8GtPChlr$"
+                          "value": "Bearer $workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.input.variable_workflow_01JLKQE5BNUZY6zT6eiPm2WIELZ8GtPChlr$"
                         }
                       ],
                       "display_name": "Get Global Blocklist Info",
@@ -1032,7 +1032,7 @@
               "custom_headers": [
                 {
                   "name": "Authorization",
-                  "value": "$workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.input.variable_workflow_01JLKQE5BNUZY6zT6eiPm2WIELZ8GtPChlr$"
+                  "value": "Bearer $workflow.definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG.input.variable_workflow_01JLKQE5BNUZY6zT6eiPm2WIELZ8GtPChlr$"
                 }
               ],
               "display_name": "Update Global Blocklist",
@@ -1066,8 +1066,8 @@
       "type": "schedule",
       "base_type": "trigger",
       "ref_id": "schedule_01IWC4BG8HN0K1uOiu0oazWF6uBO8tkjxLF",
-      "version": "1.0.0",
-      "disabled": false,
+      "version": "",
+      "disabled": true,
       "unique_name": "triggerschedule_01JLKTQ45DBRT4ftv6CnC3K9CKjV6KekkcD",
       "object_type": "triggerschedule"
     }
@@ -1149,23 +1149,8 @@
       "display_name": "Port_Scan_Alert_Table",
       "columns": [
         {
-          "name": "alert_id",
-          "title": "alert_id",
-          "type": "string"
-        },
-        {
-          "name": "alert_time",
-          "title": "alert_time",
-          "type": "string"
-        },
-        {
-          "name": "alert_type",
-          "title": "alert_type",
-          "type": "string"
-        },
-        {
-          "name": "observ_end_time",
-          "title": "observ_end_time",
+          "name": "observ_time",
+          "title": "observ_time",
           "type": "string"
         },
         {
@@ -1174,8 +1159,13 @@
           "type": "string"
         },
         {
-          "name": "alert_text",
-          "title": "alert_text",
+          "name": "alert_time",
+          "title": "alert_time",
+          "type": "string"
+        },
+        {
+          "name": "observ_end_time",
+          "title": "observ_end_time",
           "type": "string"
         },
         {
@@ -1184,18 +1174,28 @@
           "type": "string"
         },
         {
-          "name": "observ_time",
-          "title": "observ_time",
+          "name": "scanner_ip",
+          "title": "scanner_ip",
+          "type": "string"
+        },
+        {
+          "name": "alert_id",
+          "title": "alert_id",
+          "type": "string"
+        },
+        {
+          "name": "alert_text",
+          "title": "alert_text",
+          "type": "string"
+        },
+        {
+          "name": "alert_type",
+          "title": "alert_type",
           "type": "string"
         },
         {
           "name": "scanned_ip",
           "title": "scanned_ip",
-          "type": "string"
-        },
-        {
-          "name": "scanner_ip",
-          "title": "scanner_ip",
           "type": "string"
         }
       ],
