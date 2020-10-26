@@ -22,7 +22,7 @@ Please follow the below steps exactly to get started!
 
 ![](screenshots/import-workflow.png)
 
-3. Click on **Browse** and copy paste the content of the [secureX-swc-detailed-alert-wf.json](https://raw.githubusercontent.com/emcnicholas/secureX-swc-detailed-alert-wf/main/SecureX%20Cloud%20Analytics%20Demo%20Workflow%20Shared.json) file inside of the text window. 
+3. Click on **Browse** and copy paste the content of the [External Port Scan Blocklist Workflow Shared.json](https://github.com/emcnicholas/secureX-ext-port-scan-blocklist-wf/blob/main/External%20Port%20Scan%20Blocklist%20Workflow%20Shared.json) file inside of the text window. 
 
 ![](screenshots/copy-paste.png)
 
@@ -30,7 +30,7 @@ Please follow the below steps exactly to get started!
 
 5. Next we will need to fill some API keys and details before we can run this workflow. 
 
-6. First let's update **SWC_Target**. On the main page of Orchestration, go to **Targets**, select **SWC_Target**, and change the host to your SWC base url. Please retrieve you base URL by looking at the URL of your SWC portal. For example if your URL was https://acme.obsrvbl.com/v2/#/settings/site/api-credentials, then you would need **acme.obsrvbl.com/api/v3/** as your base URL target (**SWC_Target**).
+6. First let's update **SWC_Target**. On the main page of Orchestration, go to **Targets**, select **SWC_Target**, and change the host to your SWC base url. Please retrieve your base URL by looking at the URL of your SWC portal. For example if your URL was https://acme.obsrvbl.com/v2/#/settings/site/api-credentials, then you would need **acme.obsrvbl.com/api/v3/** as your base URL target (**SWC_Target**).
 
 ![](screenshots/targets_swc.png)
 
@@ -40,15 +40,17 @@ Please follow the below steps exactly to get started!
 
 > **Note:** make sure not to select an activity when looking for the global workflow properties.
 
- 8. Now we need to update the **wxt_access_token**. Select the **wxt_access_token** variable, and enter your token in the Value field and save. Please retrieve your Webex key from: [https://developer.webex.com/docs/api/getting-started](https://developer.webex.com/docs/api/getting-started). Please be aware that the personal token from the getting started page only works for 12 hours. Please follow these steps to request a "bot" token: https://developer.webex.com/docs/integrations.
+8. Next we update the **cdo_api_key** input variable. Select the **cdo_api_key** variable, and enter your token in the Value field and save.You can generate a CDO API token by logging into your [Cisco Defense Orchestrator portal](https://www.defenseorchestrator.com). Go to Settings, General Setting, and generate a token under My Tokens. 
 
-9. Finally we need to update the **wxt_room_id** variable. Select the **wxt_room_id** variable, and enter your Webex Teams room id in the Value field and save. Please retrieve the Webex room ID by creating a new space or finding an existing one via these link: https://developer.webex.com/docs/api/v1/rooms/list-rooms. You can also add the **roomid@webex.bot** bot to the room and it will send you the roomId in a private message and then remove itself from the room.
+9. Now we need to update the **wxt_access_token**. Select the **wxt_access_token** variable, and enter your token in the Value field and save. Please retrieve your Webex key from: [https://developer.webex.com/docs/api/getting-started](https://developer.webex.com/docs/api/getting-started). Please be aware that the personal token from the getting started page only works for 12 hours. Please follow these steps to request a "bot" token: https://developer.webex.com/docs/integrations.
 
-10. Now it is time to test, click on **RUN** in the top right of your window, and eveyrhting shopuld be working now. If not try troubleshooting by click on the activity that is colored red. 
+10. Finally we need to update the **wxt_room_id** variable. Select the **wxt_room_id** variable, and enter your Webex Teams room id in the Value field and save. Please retrieve the Webex room ID by creating a new space or finding an existing one via these link: https://developer.webex.com/docs/api/v1/rooms/list-rooms. You can also add the **roomid@webex.bot** bot to the room and it will send you the roomId in a private message and then remove itself from the room.
+
+11. Now it is time to test, click on **RUN** in the top right of your window, and eveyrhting shopuld be working now. If not try troubleshooting by click on the activity that is colored red. 
 
 ![](screenshots/run.png)
 
-11. As a final step you could choose to enable to scheduled trigger for this workflow. This is recommended, as the workflow only retrieves the security events of the last hour. By scheduling it, the Security analysts will be updated every hour for potential new malicious activity. To enable the trigger, click on the hyperlink below and uncheck the `DISABLE TRIGGER` checkbox. This can be found in the workflow properties in the right menu pane. 
+12. As a final step you could choose to enable to scheduled trigger for this workflow. This is recommended, as the workflow only retrieves the security events of the last 5 minutes. By scheduling it, the Security analysts will be updated every hour for potential new malicious activity. To enable the trigger, click on the hyperlink below and uncheck the `DISABLE TRIGGER` checkbox. This can be found in the workflow properties in the right menu pane. 
 
 ![](screenshots/schedule.png)
 
