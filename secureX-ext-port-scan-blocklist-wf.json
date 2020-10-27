@@ -1,8 +1,8 @@
 {
   "workflow": {
     "unique_name": "definition_workflow_01IX60Q9ZOUNC53TrtTklQpSUzjThHgpEnG",
-    "name": "External Port Scan Blocklist Workflow Shared",
-    "title": "External Port Scan Blocklist Workflow Shared",
+    "name": "External Port Scan Blocklist Workflow",
+    "title": "External Port Scan Blocklist Workflow",
     "type": "generic.workflow",
     "base_type": "workflow",
     "variables": [
@@ -178,7 +178,7 @@
         "is_atomic": false
       },
       "delete_workflow_instance": false,
-      "display_name": "External Port Scan Blocklist Workflow Shared",
+      "display_name": "External Port Scan Blocklist Workflow",
       "runtime_user": {
         "override_target_runtime_user": false,
         "specify_on_workflow_start": false,
