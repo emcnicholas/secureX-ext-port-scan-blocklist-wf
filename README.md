@@ -22,7 +22,7 @@ Please follow the below steps exactly to get started!
 
 ![](screenshots/import-workflow.png)
 
-3. Click on **Browse** and copy paste the content of the [secureX-ext-port-scan-blocklist-wf.json](https://github.com/emcnicholas/secureX-ext-port-scan-blocklist-wf/blob/main/secureX-ext-port-scan-blocklist-wf.json) file inside of the text window. 
+3. Click on **Browse** and copy paste the content of the [secureX-ext-port-scan-blocklist-wf.json](https://raw.githubusercontent.com/emcnicholas/secureX-ext-port-scan-blocklist-wf/main/secureX-ext-port-scan-blocklist-wf.json) file inside of the text window. 
 
 ![](screenshots/copy-paste.png)
 
