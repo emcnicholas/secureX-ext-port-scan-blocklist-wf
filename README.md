@@ -1,4 +1,4 @@
-# secureX-ext-port-scan-blocklist-wf
+# External Port Scan Blocklist SecureX Orchestration Workflow
 
 In this workflow we will reach out to SWC for Inbound Port Scan Alerts. Once we have the alert we will query SWC again for all the observations about that alert. We create a SecureX Orchestration Approval Request and a Webex Teams Alerts message. In the Webex Teams alert message there will be a redirect link to the SWC Alert page, SecureX Threat Response Investigation prepopulated with all the SWC observables, and the SecureX Orchestration Approval request. The next step is to automate adding the attacker IP address to a network object in CDO, then merging the network object into the Global_Blocklist network group.
 
@@ -22,7 +22,7 @@ Please follow the below steps exactly to get started!
 
 ![](screenshots/import-workflow.png)
 
-3. Click on **Browse** and copy paste the content of the [External Port Scan Blocklist Workflow Shared.json](https://github.com/emcnicholas/secureX-ext-port-scan-blocklist-wf/blob/main/External%20Port%20Scan%20Blocklist%20Workflow%20Shared.json) file inside of the text window. 
+3. Click on **Browse** and copy paste the content of the [secureX-ext-port-scan-blocklist-wf.json](https://github.com/emcnicholas/secureX-ext-port-scan-blocklist-wf/blob/main/secureX-ext-port-scan-blocklist-wf.json) file inside of the text window. 
 
 ![](screenshots/copy-paste.png)
 
