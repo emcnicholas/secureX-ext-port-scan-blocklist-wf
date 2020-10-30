@@ -6,7 +6,7 @@ In this workflow we will reach out to SWC for Inbound Port Scan Alerts. Once we 
 1. Cisco Stealthwatch Cloud (SWC) Account (and API key)
 2. Cisco SecureX Account (and API key)
 3. Cisco Webex Teams Account (and API key)
-4. Cisco Defense Orchestrator (CDO) Account
+4. Cisco Defense Orchestrator (CDO) Account (and API key)
     * Network Object created in CDO named **Global_Blocklist**
 
 ## Installation Steps
