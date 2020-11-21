@@ -9,6 +9,10 @@ In this workflow we will reach out to SWC for Inbound Port Scan Alerts. Once we 
 4. Cisco Defense Orchestrator (CDO) Account (and API key)
     * Network Object created in CDO named **Global_Blocklist**
 
+[https://youtu.be/450wiTWiH1E](https://youtu.be/450wiTWiH1E)
+
+[![Alt text](https://img.youtube.com/vi/450wiTWiH1E/0.jpg)](https://www.youtube.com/watch?v=450wiTWiH1E)
+
 ## Installation Steps
 Please follow the below steps exactly to get started!
 
